@@ -1,2 +1,5 @@
-# Python-Creations
-Compilation of all of my Python work - some of this is for school, some of this is me messing around. 
+# Python Creations - gr1ffin
+This is a compiliation of random Python Files. Projects will be posted in their own individual folder. 
+
+## Random Work
+**choose.py** - Script that converts Binary to Decimal, Decimal to Binary and String Text to Binary. 
