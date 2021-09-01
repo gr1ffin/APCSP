@@ -7,7 +7,7 @@ while True:
     words_choice = "C"
     info = "D" # Hidden from input selection because it's unnecessary 
     
-    if choose == binary_choice: # Converts Binary > Decimal
+    if choose.upper() == binary_choice: # Converts Binary > Decimal
         inp_bin = input("Input Binary Number: ")  
         decimal = 0 
         for digit in inp_bin: 
@@ -15,14 +15,14 @@ while True:
         print(decimal)
         break
 
-    elif choose == decimal_choice: # Converts Decimal to Binary
+    elif choose.upper() == decimal_choice: # Converts Decimal to Binary
         inp_dec = input("Input Decimal Number: ")
         decimal_value = int(inp_dec)
         binary_output = bin(decimal_value)
         print(binary_output)
         break
 
-    elif choose == words_choice: # Converts String Text to Binary
+    elif choose.upper() == words_choice: # Converts String Text to Binary
         inp_word = input("Input String: ")
         inp_array = bytearray(inp_word, "utf8")
         byte_list = []
@@ -32,7 +32,7 @@ while True:
         print(byte_list)
         break
 
-    elif choose == info: # Lists all conversions for a number
+    elif choose.upper() == info: # Lists all conversions for a number
         info_number = int(input("Input:"))
         binary = bin(info_number)
         octal = oct(info_number)
