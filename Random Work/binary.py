@@ -1,4 +1,4 @@
-choose = input("Choose one of the convert options: \n Binary to Decimal (A) \n Decimal to Binary (B) \n String to Binary  (C) \n Number Information (D)")
+choose = input("Choose one of the convert options: \n Binary to Decimal  (A) \n Decimal to Binary  (B) \n String to Binary   (C) \n Number Information (D)")
 # Input to select from A, B, C, or D
 binary_choice = "A"
 decimal_choice = "B"
