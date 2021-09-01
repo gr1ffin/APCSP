@@ -1,6 +1,4 @@
-import math # only needed for option D
-
-choose = input("Choose one of the convert options: \n Binary to Decimal (A) \n Decimal to Binary (B) \n String to Binary  (C) \n Number Information (D)")
+choose = input("Choose one of the convert options: \n Binary to Decimal  (A) \n Decimal to Binary  (B) \n String to Binary   (C) \n Number Information (D)")
 # Input to select from A, B, C, or D
 binary_choice = "A"
 decimal_choice = "B"
@@ -30,26 +28,15 @@ elif choose == words_choice: # Converts String Text to Binary
         byte_list.append(binary_representation)
     print(byte_list)
 
-elif choose == info: # info Mode # Lists general information about a number 
+elif choose == info: # Lists all conversions for a number
     info_number = int(input("Input:"))
-    absolute = math.fabs(info_number)
     binary = bin(info_number)
     octal = oct(info_number)
     hexadecimal = hex(info_number)
-    if info_number >= 0: 
-        factorial = math.factorial(info_number)
-        print(info_number)
-        print(factorial)
-        print(absolute)
-        print('Binary: ' + binary)
-        print('Octal: ' + octal)
-        print('Hexadecimal: ' + hexadecimal)
-    else: 
-        print(info_number)
-        print(absolute)
-        print('Binary: ' + binary)
-        print('Octal: ' + octal)
-        print('Hexadecimal: ' + hexadecimal)
+    print(info_number)
+    print('Binary: ' + binary)
+    print('Octal: ' + octal)
+    print('Hexadecimal: ' + hexadecimal)
 
 else:
     print("Invalid Input. Please choose a valid response.")
