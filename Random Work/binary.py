@@ -1,27 +1,27 @@
-import math
+import math # only needed for option D
 
-choose = input("Choose one of the convert options: \n Binary to Decimal (A) \n Decimal to Binary (B) \n String to Binary  (C)")
-
+choose = input("Choose one of the convert options: \n Binary to Decimal (A) \n Decimal to Binary (B) \n String to Binary  (C) \n Number Information (D)")
+# Input to select from A, B, C, or D
 binary_choice = "A"
 decimal_choice = "B"
 words_choice = "C"
-secret = "D"
+info = "D"
         
 
-if choose == binary_choice:
+if choose == binary_choice: # Converts Binary > Decimal
     inp_bin = input("Input Binary Number: ")  
     decimal = 0 
     for digit in inp_bin: 
         decimal = decimal*2 + int(digit)
     print(decimal)
 
-elif choose == decimal_choice:
+elif choose == decimal_choice: # Converts Decimal to Binary
     inp_dec = input("Input Decimal Number: ")
     decimal_value = int(inp_dec)
     binary_output = bin(decimal_value)
     print(binary_output)
 
-elif choose == words_choice:
+elif choose == words_choice: # Converts String Text to Binary
     inp_word = input("Input String: ")
     inp_array = bytearray(inp_word, "utf8")
     byte_list = []
@@ -30,26 +30,26 @@ elif choose == words_choice:
         byte_list.append(binary_representation)
     print(byte_list)
 
-elif choose == secret: # Secret Mode 
-    secret_number = int(input("Input:"))
-    absolute = math.fabs(secret_number)
-    binary = bin(secret_number)
-    octal = oct(secret_number)
-    hexadecimal = hex(secret_number)
-    if secret_number >= 0: 
-        factorial = math.factorial(secret_number)
-        print(secret_number)
+elif choose == info: # info Mode # Lists general information about a number 
+    info_number = int(input("Input:"))
+    absolute = math.fabs(info_number)
+    binary = bin(info_number)
+    octal = oct(info_number)
+    hexadecimal = hex(info_number)
+    if info_number >= 0: 
+        factorial = math.factorial(info_number)
+        print(info_number)
         print(factorial)
         print(absolute)
         print('Binary: ' + binary)
         print('Octal: ' + octal)
         print('Hexadecimal: ' + hexadecimal)
     else: 
-        print(secret_number)
+        print(info_number)
         print(absolute)
         print('Binary: ' + binary)
         print('Octal: ' + octal)
         print('Hexadecimal: ' + hexadecimal)
 
-else: 
+else:
     print("Invalid Input. Please choose a valid response.")
