@@ -1,4 +1,5 @@
 # gen_random_password inspired by https://geekflare.com/password-generator-python-code/
+# - gr1ffin
 
 import string
 import random
@@ -59,7 +60,7 @@ while True:
 
         import subprocess
         subprocess.Popen('explorer "C:\Apps\passwords.txt"')
-        
+
         break
     else:
         print("Invalid Input. Please choose a valid response.")
