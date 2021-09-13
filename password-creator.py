@@ -21,19 +21,8 @@ while True:
         first_ini = first_name[0]
         second_ini = last_name[0]
         password = month + day + year + first_ini + second_ini
-
-        characters = list(string.digits) #ID NUMBER
-        random.shuffle(characters)
-        student_ID = []
-        length = int(7)
-        for i in range(length):
-            student_ID.append(random.choice(characters))
-        random.shuffle(student_ID)
-        newID = ''.join(student_ID)
-        print('Student ID: ' + newID) # Printing Values to Console
         print('Student Password: ' + password)
         f= open("C:\Apps\passwords.txt", "w+") # Printing Values to Text
-        f.write('Student ID: ' + newID )
         f.write('\nStudent Password: ' + password)
         path = r'C:\Apps\passwords.txt'
         sys.path.append(path)
