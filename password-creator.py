@@ -41,7 +41,7 @@ while True:
         random.shuffle(password)
         new_password = ''.join(password)
         print(new_password)
-        f= open("C:\Program Files\passwords.txt", "w+")
+        f= open("C:\Apps\passwords.txt", "w+")
         f.write('Your new password is ' + new_password)
 
         path = r'C:\Apps\passwords.txt'
