@@ -1,6 +1,7 @@
 import string
 import random
 import sys
+import subprocess
 
 def convertFunction():    
     choose = input("Choose one of the convert options: \n Binary to Decimal  (A) \n Decimal to Binary  (B) \n String to Binary   (C)")
@@ -73,7 +74,6 @@ def passwordGen():
             path = r'C:\Apps\passwords.txt'
             sys.path.append(path)
 
-            import subprocess
             subprocess.Popen('explorer "C:\Apps\passwords.txt"')
 
             break
@@ -93,7 +93,6 @@ def passwordGen():
             path = r'C:\Apps\passwords.txt'
             sys.path.append(path)
 
-            import subprocess
             subprocess.Popen('explorer "C:\Apps\passwords.txt"')
 
             break
@@ -101,15 +100,23 @@ def passwordGen():
             print("Invalid Input. Please choose a valid response.")
             continue
 
+def functionTest():
+    print("Test Function")
+
+
+
 print("Welcome to the all around command prompt tool. \n What would you like to do today?\n ")
 firstChoice = input("Convert Decimal and Binary Numbers (A) \nGenerate a Password (B)\n")
 
 firstA = "A"
 firstB = "B"
+firstC = "C"
 
 if firstA.upper() == firstChoice:
     convertFunction()
 elif firstB.upper() == firstChoice:
     passwordGen()
+elif firstC.upper() == firstChoice:
+    functionTest()
 else:
     print("Invalid Input. Please Try again. ")
