@@ -5,6 +5,9 @@ import subprocess
 import json
 import datetime
 import os
+import socket
+import platform
+import urllib.request
 
 def convertFunction():  
 
@@ -59,16 +62,29 @@ def convertFunction():
             break
 
         elif choose.upper() == info: # Lists all conversions for a number
-            info_number = int(input("Input:"))
-            binary = bin(info_number)
-            octal = oct(info_number)
-            hexadecimal = hex(info_number)
-            print(info_number)
+            conversionType = "Decimal to Binary, Octal, and Hexadecimal"
+            inp = int(input("Decimal Input:"))
+            binary = bin(inp)
+            octal = oct(inp)
+            hexadecimal = hex(inp)
+            print(inp)
             print('Binary: ' + binary)
             print('Octal: ' + octal)
             print('Hexadecimal: ' + hexadecimal)
+            time = datetime.datetime.now()
+            data = {}
+            data['Conversions'] = []
+            data['Conversions'].append({
+                'Conversion Type': str(conversionType),
+                'Input Value': str(inp),
+                'Binary': str(binary),
+                'Octal': str(octal),
+                'Hexadecimal': str(hexadecimal),
+                })
+            with open('conversions.txt', 'a') as outfile:
+                json.dump(data, outfile, indent=2)
             break
-
+        
         else:
             print("Invalid Input. Please choose a valid response.")
             continue
@@ -78,7 +94,7 @@ def passwordGen():
     input_A = "A"
     input_B = "B"
 
-    def saveToJson():
+    def saveToJsonPassword():
         time = datetime.datetime.now()
         data = {}
         data['passwords'] = []
@@ -103,7 +119,7 @@ def passwordGen():
             second_ini = last_name[0]
             new_password = month + day + year + first_ini + second_ini
             print(new_password)
-            saveToJson()
+            saveToJsonPassword()
             break
         elif choose == input_B.upper():
             passwordType = "Randomly Generated Password"
@@ -122,6 +138,33 @@ def passwordGen():
             print("Invalid Input. Please choose a valid response.")
             continue
 
+def computerInfo():
+    hostname = socket.gethostname()
+    privateIP = socket.gethostbyname(hostname)
+    publicIP = urllib.request.urlopen('http://ident.me').read().decode('utf8')
+    print('Computer Hostname: ' + hostname)
+    print('Public IP: ' + publicIP)
+    print('Private IP ' + privateIP)
+    questionA = "Y"
+    questionB = "N"
+    doPing = input("Would you like to ping a website? (Y/N) \n")
+    while True:
+        if questionA == doPing.upper():
+            pingServer = input("What website would you like to ping? \n")
+            response = os.system("ping -n 1 " + hostname)
+            if response == 0:
+                print(pingServer + ' has responded!')
+            else:  
+                print('Could not connect to ' + hostname)
+            break
+        elif questionB == doPing.upper():
+            break
+        else:
+            print("Invalid input, please try again.")
+            break
+
+
+
 print("What do you want to do?")
 firstChoice = input("Convert Decimal and Binary Numbers (A) \nGenerate a Password (B)\n")
 
@@ -133,5 +176,7 @@ if firstA == firstChoice.upper():
     convertFunction()
 elif firstB == firstChoice.upper():
     passwordGen()
+elif firstC == firstChoice.upper():
+    computerInfo()
 else:
     print("Invalid Input. Please Try again. ")
