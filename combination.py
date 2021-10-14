@@ -20,12 +20,12 @@ def convertFunction():
         with open('conversions.txt', 'a') as outfile:
             json.dump(data, outfile, indent=2)
 
-    choose = input("Choose one of the convert options: \n Binary to Decimal  (A) \n Decimal to Binary  (B) \n String to Binary   (C)")
+    choose = input("Choose one of the convert options: \n Binary to Decimal  (A) \n Decimal to Binary  (B) \n String to Binary   (C)\n Other conversions (D)")
     # Input to select from A, B, C, or D
     binary_choice = "A"
     decimal_choice = "B"
     words_choice = "C"
-    info = "D" # Hidden from input selection because it's unnecessary 
+    info = "D" 
     while True:
         if choose.upper() == binary_choice: # Converts Binary > Decimal
             conversionType = "Binary to Decimal"
@@ -102,12 +102,6 @@ def passwordGen():
             first_ini = first_name[0]
             second_ini = last_name[0]
             new_password = month + day + year + first_ini + second_ini
-            #f= open("C:\Apps\passwords.txt", "w+")
-            #f.write('Your new password is ' + new_password)
-            #path = r'C:\Apps\passwords.txt'
-            #sys.path.append(path)
-            #subprocess.Popen('explorer "C:\Apps\passwords.txt"')
-            #Switching to .json database.
             print(new_password)
             saveToJson()
             break
@@ -122,12 +116,6 @@ def passwordGen():
             random.shuffle(password)
             new_password = ''.join(password)
             print(new_password)
-            #f= open("C:\Apps\passwords.txt", "w+")
-            #f.write('Your new password is ' + new_password)
-            #path = r'C:\Apps\passwords.txt'
-            #sys.path.append(path)
-            #subprocess.Popen('explorer "C:\Apps\passwords.txt"')
-            #Switching to .json database.
             saveToJson()
             break
         else:
