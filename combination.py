@@ -73,46 +73,44 @@ def multiConvert():
         json.dump(data, outfile, indent=2)
 
 
-class Password:
-    def saveToJsonPassword():
-            passwordType = Password.randomPassword()
-            time = datetime.datetime.now()
-            data = {}
-            data['passwords'] = []
-            data['passwords'].append({
-                'Password Type': str(passwordType),
-                'Password': str(new_password),
-                'Date Generated': str(time),
-            })
-            with open('passwords.txt', 'a') as outfile:
-                json.dump(data, outfile, indent=2)
+def saveToJsonPassword():
+        passwordType = randomPassword().passwordType;
+        time = datetime.datetime.now()
+        data = {}
+        data['passwords'] = []
+        data['passwords'].append({
+            'Password Type': str(passwordType),
+            'Password': str(new_password),
+            'Date Generated': str(time),
+        })
+        with open('passwords.txt', 'a') as outfile:
+            json.dump(data, outfile, indent=2)
 
-    def schoolPassword():
-        passwordType = "School Password"
-        first_name = input("What is your first name? \n") # PASSWORD
-        last_name = input("What is your last name? \n")
-        birthday = input ("What is your birthday? (MM/DD/YY) \n")
-        month = birthday[0:2]
-        day = birthday[3:5]
-        year = birthday[6:8]
-        first_ini = first_name[0]
-        second_ini = last_name[0]
-        new_password = month + day + year + first_ini + second_ini
-        print(new_password)
-        saveToJsonPassword()
+def schoolPassword():
+    passwordType = "School Password"
+    first_name = input("What is your first name? \n") # PASSWORD
+    last_name = input("What is your last name? \n")
+    birthday = input ("What is your birthday? (MM/DD/YY) \n")
+    month = birthday[0:2]
+    day = birthday[3:5]
+    year = birthday[6:8]
+    first_ini = first_name[0]
+    second_ini = last_name[0]
+    new_password = month + day + year + first_ini + second_ini
+    print(new_password)
+    saveToJsonPassword()
 
-    def randomPassword():
-        passwordType = "Randomly Generated Password"
-        characters = list(string.ascii_letters + string.digits + "!@#$%^&*()")
-        length = int(input("How long do you want the password to be? \n"))
-        random.shuffle(characters)
-        password = []
-        for i in range(length):
-            password.append(random.choice(characters))
-        random.shuffle(password)
-        new_password = ''.join(password)
-        print(new_password)
-        Password.saveToJsonPassword()
+def randomPassword():
+    passwordType = "Randomly Generated Password"
+    characters = list(string.ascii_letters + string.digits + "!@#$%^&*()")
+    length = int(input("How long do you want the password to be? \n"))
+    random.shuffle(characters)
+    password = []
+    for i in range(length):
+        password.append(random.choice(characters))
+    random.shuffle(password)
+    new_password = ''.join(password)
+    print(new_password)
 
 def computerInfo():
     hostname = socket.gethostname()
@@ -178,7 +176,8 @@ elif firstB == firstChoice.upper():
             Password.schoolPassword()
             break
         elif choose == inputB.upper():
-            Password.randomPassword()
+            randomPassword()
+            saveToJsonPassword()
             break
         else: 
             print("Invalid input. Please choose a valid response.")
