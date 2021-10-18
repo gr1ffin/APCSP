@@ -155,7 +155,7 @@ def computerInfo():
             if response == 0:
                 print(pingServer + ' has responded!')
             else:  
-                print('Could not connect to ' + hostname)
+                print('Could not connect to ' + pingServer)
             break
         elif questionB == doPing.upper():
             break
@@ -166,7 +166,7 @@ def computerInfo():
 
 
 print("What do you want to do?")
-firstChoice = input("Convert Decimal and Binary Numbers (A) \nGenerate a Password (B)\n")
+firstChoice = input("Convert Decimal and Binary Numbers (A) \nGenerate a Password (B) \nSee Network Information (C)\n")
 
 firstA = "A"
 firstB = "B"
