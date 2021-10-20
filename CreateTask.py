@@ -132,7 +132,7 @@ def passwordGen():
             random.shuffle(password)
             new_password = ''.join(password)
             print(new_password)
-            saveToJson()
+            saveToJsonPassword()
             break
         else:
             print("Invalid Input. Please choose a valid response.")
