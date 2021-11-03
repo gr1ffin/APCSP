@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CreateTask:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CreateTask_jar</output-path>
+    <root id="archive" name="MathTask.jar">
+      <element id="module-output" name="MathTask" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/Jama-1.0.3.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
