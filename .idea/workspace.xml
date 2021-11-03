@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="AP-CSP:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="84a2acbf-8e15-41af-83ae-ef54a2359ebd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java/.idea/artifacts/JavaCode_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AP-CSP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AP-CSP.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Binary.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Random/Binary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/GradeCalculator/Grades.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/GradeCalculator/Grades.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/GradeCalculator/GradesGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/GradeCalculator/GradesGUI.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/GradeCalculator/GradesGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/GradeCalculator/GradesGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AP_CSP_jar/GradeCalculator.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +26,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
@@ -63,5 +62,16 @@
       <updated>1635854080042</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
