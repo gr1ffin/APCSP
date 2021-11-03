@@ -1,9 +1,11 @@
+package Random;
+
 import java.util.Scanner;
 
 public class Binary {
     public static Scanner myObj = new Scanner(System.in);
     public static void main(String[] args) {
-        System.out.println("Would you like to convert from Decimal to Binary (A) or Binary to Decimal (B)? \n");
+        System.out.println("Would you like to convert from Decimal to Random.Binary (A) or Random.Binary to Decimal (B)? \n");
 
         String choice = myObj.nextLine();
         if(choice.equals("A")) {

@@ -2,23 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84a2acbf-8e15-41af-83ae-ef54a2359ebd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python-Creations.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/Java/Grades.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Binary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Grades.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/.idea/artifacts/JavaCode_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AP-CSP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AP-CSP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/Binary.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Random/Binary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/GradeCalculator/Grades.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/GradeCalculator/Grades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/GradeCalculator/GradesGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/GradeCalculator/GradesGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/GradeCalculator/GradesGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/GradeCalculator/GradesGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +28,30 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="GradesGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GradeCalculator.GradesGUI" />
+      <module name="AP-CSP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GradeCalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GradesGUI" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
