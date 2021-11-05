@@ -78,5 +78,4 @@ public class GradesGUI {
         gui.answerSpace.setVisible(false);
 
     }
-
 }
