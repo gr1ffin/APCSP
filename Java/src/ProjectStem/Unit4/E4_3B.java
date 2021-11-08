@@ -1,12 +1,13 @@
 package ProjectStem.Unit4;
 
+import java.util.Random;
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class E4_3B {
     public static void main(String[] args) {
         Scanner userInputInitial = new Scanner(System.in);
-        String takeInput = userInputInitial.nextLine()
+        String takeInput = userInputInitial.nextLine();
         if (takeInput.contains("int")) {
             integerDivision();
         }
@@ -41,8 +42,10 @@ public class E4_3B {
         double int1 = Double.parseDouble(userInput.nextLine());
         System.out.println("Enter in a large decimal number: ");
         double int2 = Double.parseDouble(userInput.nextLine());
-        double randomNum = ThreadLocalRandom.current().nextDouble(int1, int2 + 1);
+        Random random = new Random();
+        double randomNum = random.nextDouble(int1, int2 + 1);
         double volume = 1.33333333 * Math.PI * Math.pow(randomNum, 3);
+        System.out.println("The volume of the sphere with the radius " + randomNum + " is " + volume);
     }
 
     public static void quizMethod() {
