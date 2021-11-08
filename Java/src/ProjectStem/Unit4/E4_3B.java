@@ -5,6 +5,8 @@ import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class E4_3B {
+
+
     public static void main(String[] args) {
         Scanner userInputInitial = new Scanner(System.in);
         String takeInput = userInputInitial.nextLine();
