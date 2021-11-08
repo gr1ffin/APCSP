@@ -1,9 +1,9 @@
-package ProjectStem;
+package ProjectStem.Unit4;
 
 import java.util.ArrayList;
 import java.util.stream.IntStream;
 
-public class Exercise_4_3 {
+public class E4_3A {
     private static final int grade = 82;
     private static final String name = "Rumpelstiltskin";
     public static final int x = -3;

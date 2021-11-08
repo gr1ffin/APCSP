@@ -7,8 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84a2acbf-8e15-41af-83ae-ef54a2359ebd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java/src/ProjectStem/Exercise_4_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/ProjectStem/Unit4/E4_3B.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/ProjectStem/Exercise_4_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/ProjectStem/Unit4/E4_2A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/ProjectStem/Exercise_4_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/ProjectStem/Unit4/E4_3A.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,7 @@
       <recent name="C:\Users\agent\OneDrive\Documents\GitHub\AP-CSP\Java\src\ReplitConversions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exercise_4_3">
+  <component name="RunManager">
     <configuration name="Binary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Random.Binary" />
       <module name="AP-CSP" />
@@ -63,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise_4_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProjectStem.Exercise_4_2" />
+    <configuration name="E4_2A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProjectStem.Unit4.E4_2A" />
       <module name="AP-CSP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ProjectStem.*" />
+          <option name="PATTERN" value="ProjectStem.Unit4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise_4_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProjectStem.Exercise_4_3" />
+    <configuration name="E4_3A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProjectStem.Unit4.E4_3A" />
       <module name="AP-CSP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ProjectStem.*" />
+          <option name="PATTERN" value="ProjectStem.Unit4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,8 +106,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exercise_4_3" />
-        <item itemvalue="Application.Exercise_4_2" />
+        <item itemvalue="Application.E4_3A" />
+        <item itemvalue="Application.E4_2A" />
         <item itemvalue="Application.Binary" />
         <item itemvalue="Application.GradesGUI" />
       </list>

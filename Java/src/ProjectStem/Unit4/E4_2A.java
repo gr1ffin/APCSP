@@ -1,6 +1,6 @@
-package ProjectStem;
+package ProjectStem.Unit4;
 
-public class Exercise_4_2 {
+public class E4_2A {
     public static void main(String[] args) {
         // Griffin Byrd, 11/8/2021, Project Stem 4.2 Exercise A
         System.out.println("This is not my first real program!");
