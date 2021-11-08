@@ -7,15 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84a2acbf-8e15-41af-83ae-ef54a2359ebd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/ReplitConversions/Exercise_4_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/ReplitConversions/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/GradeCalculator/GradesGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/GradeCalculator/GradesGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Random/Binary.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Random/Binary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,18 +36,40 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Java/src/Replit Conversions" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Binary">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\agent\OneDrive\Documents\GitHub\AP-CSP\Java\src\Replit Conversions" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\agent\OneDrive\Documents\GitHub\AP-CSP\Java\src\ReplitConversions" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Exercise_4_2">
     <configuration name="Binary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Random.Binary" />
       <module name="AP-CSP" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Random.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise_4_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReplitConversions.Exercise_4_2" />
+      <module name="AP-CSP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ReplitConversions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,6 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise_4_2" />
         <item itemvalue="Application.Binary" />
         <item itemvalue="Application.GradesGUI" />
       </list>
