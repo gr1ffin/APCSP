@@ -7,9 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84a2acbf-8e15-41af-83ae-ef54a2359ebd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Java/src/ReplitConversions/Exercise_4_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/ReplitConversions/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/ReplitConversions/Exercise_4_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/ProjectStem/Exercise_4_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/ReplitConversions/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/ProjectStem/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +64,11 @@
       </method>
     </configuration>
     <configuration name="Exercise_4_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReplitConversions.Exercise_4_2" />
+      <option name="MAIN_CLASS_NAME" value="ProjectStem.Exercise_4_2" />
       <module name="AP-CSP" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ReplitConversions.*" />
+          <option name="PATTERN" value="ProjectStem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
