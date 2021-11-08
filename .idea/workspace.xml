@@ -8,8 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="84a2acbf-8e15-41af-83ae-ef54a2359ebd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/ProjectStem/Unit4/E4_3B.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/ProjectStem/Unit4/E4_3B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AP-CSP/ProjectStem/Unit4/E4_3B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AP-CSP/ProjectStem/Unit4/E4_3B.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +31,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
   </component>
   <component name="ProjectId" id="20MUiUQ0du9cjVEiYpYHQUXcU3i" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -61,20 +62,7 @@
       <recent name="C:\Users\agent\OneDrive\Documents\GitHub\AP-CSP\Java\src\ReplitConversions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.E4_4A">
-    <configuration name="E4_2A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProjectStem.Unit4.E4_2A" />
-      <module name="AP-CSP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ProjectStem.Unit4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.E4_5A">
     <configuration name="E4_3A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProjectStem.Unit4.E4_3A" />
       <module name="AP-CSP" />
@@ -114,6 +102,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="E4_5A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProjectStem.Unit4.E4_5A" />
+      <module name="AP-CSP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ProjectStem.Unit4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GradesGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GradeCalculator.GradesGUI" />
       <module name="AP-CSP" />
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E4_5A" />
         <item itemvalue="Application.E4_4A" />
         <item itemvalue="Application.GradesGUI" />
         <item itemvalue="Application.E4_3B" />
         <item itemvalue="Application.E4_3A" />
-        <item itemvalue="Application.E4_2A" />
       </list>
     </recent_temporary>
   </component>
