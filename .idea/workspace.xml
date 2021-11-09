@@ -62,20 +62,7 @@
       <recent name="C:\Users\agent\OneDrive\Documents\GitHub\AP-CSP\Java\src\ReplitConversions" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.E4_5A">
-    <configuration name="E4_3A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProjectStem.Unit4.E4_3A" />
-      <module name="AP-CSP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ProjectStem.Unit4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.E4_6A">
     <configuration name="E4_3B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProjectStem.Unit4.E4_3B" />
       <module name="AP-CSP" />
@@ -115,6 +102,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="E4_6A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProjectStem.Unit4.E4_6A" />
+      <module name="AP-CSP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ProjectStem.Unit4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GradesGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GradeCalculator.GradesGUI" />
       <module name="AP-CSP" />
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.E4_6A" />
         <item itemvalue="Application.E4_5A" />
         <item itemvalue="Application.E4_4A" />
         <item itemvalue="Application.GradesGUI" />
         <item itemvalue="Application.E4_3B" />
-        <item itemvalue="Application.E4_3A" />
       </list>
     </recent_temporary>
   </component>
