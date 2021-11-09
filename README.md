@@ -6,8 +6,9 @@ Java files are stored in the [Java/src](https://github.com/gr1ffin/AP-CSP/tree/m
 ### Grade Calculator
 Grade calculator with a GUI, files are in the [Java/src/GradeCalculator](https://github.com/gr1ffin/AP-CSP/tree/main/Java/src/GradeCalculator) file.
 
-
+### Project Stem
+My class uses Project Stem for classwork, and although everything on Project Stem is Python, I've gottten permission to do everything in Java. Files are [here](https://github.com/gr1ffin/APCSP/tree/main/Java/src/ProjectStem).
 
 
 ## Python
-Python files are stored in the [Python](https://github.com/gr1ffin/AP-CSP/tree/main/Python) folder. I don't use Python much, so it's some pretty basic stuff. 
+Python files are stored in the [Python](https://github.com/gr1ffin/AP-CSP/tree/main/Python) folder. I don't use Python ~~much~~ at all, so it's some pretty basic stuff. 
