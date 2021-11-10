@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class E4_5A {
-    public static ArrayList<String> names = new ArrayList<>();
-    public static ArrayList<Integer> values = new ArrayList<>();
+    private static final ArrayList<String> names = new ArrayList<>();
+    private static final ArrayList<Integer> values = new ArrayList<>();
 
     public static void main(String[] args) {
         addVariables();

@@ -3,10 +3,10 @@ package ProjectStem.Unit4;
 import java.util.*;
 
 public class E4_6A {
-    public static int a = 0;
-    public static int b = 0;
-    public static ArrayList<Integer> intArray = new ArrayList<>();
-    public static ArrayList<String> nameArray = new ArrayList<>();
+    private static int a = 0;
+    private static int b = 0;
+    private static final ArrayList<Integer> intArray = new ArrayList<>();
+    private static final ArrayList<String> nameArray = new ArrayList<>();
     public static void main(String[] args) {
         Scanner userScan = new Scanner(System.in);
         int userInt = Integer.parseInt(userScan.nextLine());

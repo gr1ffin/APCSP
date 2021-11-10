@@ -6,7 +6,7 @@ import java.util.stream.IntStream;
 public class E4_3A {
     private static final int grade = 82;
     private static final String name = "Rumpelstiltskin";
-    public static final int x = -3;
+    private static final int x = -3;
 
     public static void main(String[] args) {
         ArrayList<Boolean> bool = new ArrayList<Boolean>();
