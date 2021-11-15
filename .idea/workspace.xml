@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="AP-CSP:jar" />
+      <artifact name="GuessingGame:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84a2acbf-8e15-41af-83ae-ef54a2359ebd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/GuessingGame/Guessing.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/GuessingGame/Guessing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/GuessingGame/GuessingGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/GuessingGame/GuessingGUI.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/GuessingGame/GuessingGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/GuessingGame/GuessingGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/META-INF/MANIFEST.MF" afterDir="false" />
-    </list>
+    <list default="true" id="84a2acbf-8e15-41af-83ae-ef54a2359ebd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

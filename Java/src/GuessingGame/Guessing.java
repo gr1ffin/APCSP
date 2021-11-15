@@ -26,7 +26,6 @@ public class Guessing {
     }
 
     public static void userGuess() {
-        System.out.println(computerNumbers);
         wrongSpot = 0;
         correctSpot = 0;
         for (int b = 0; b < 4; b++) {
