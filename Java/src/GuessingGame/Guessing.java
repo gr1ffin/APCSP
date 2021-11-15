@@ -9,6 +9,7 @@ public class Guessing {
     public static ArrayList<Integer> computerNumbers = new ArrayList<>();
     public static ArrayList<Integer> userGuesses = new ArrayList<>();
     public static ArrayList<String> pastGuesses = new ArrayList<>();
+    public static ArrayList<String> pastGuessesTwo = new ArrayList<>();
     public static int wrongSpot = 0;
     public static int correctSpot = 0;
     public static int guessAmount = 0;
@@ -20,7 +21,7 @@ public class Guessing {
             computerGen();
         }
         else {
-            computerNumbers.add(newRandom);
+            computerNumbers.set(GuessingGUI.ab, newRandom);
         }
     }
 
@@ -50,9 +51,18 @@ public class Guessing {
         else {
             System.out.println(correctSpot + " Correct");
             System.out.println(wrongSpot + " Wrong yet correct");
-            pastGuesses.add("\n");
-            for (int i = 0; i < 4; i++) {
-                pastGuesses.add(String.valueOf(userGuesses.get(i)));
+
+            if(pastGuesses.size() <= 20){
+                pastGuesses.add("\n");
+                for (int i = 0; i < 4; i++) {
+                    pastGuesses.add(String.valueOf(userGuesses.get(i)));
+                }
+            }
+            else {
+                pastGuessesTwo.add("\n");
+                for (int i = 0; i < 4; i++) {
+                    pastGuessesTwo.add(String.valueOf(userGuesses.get(i)));
+                }
             }
             for (int d = 0; d < 4; d++) {
                 userGuesses.set(d, 0);
@@ -62,6 +72,9 @@ public class Guessing {
     }
 
     public static void initialSet() {
+        for (int y = 0; y < 4; y++) {
+            computerNumbers.add(1);
+        }
         for (int z = 0; z < 4; z++) {
             userGuesses.add(0);
         }

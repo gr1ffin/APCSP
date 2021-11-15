@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GuessingGame:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GuessingGame_jar</output-path>
+    <root id="archive" name="AP-CSP.jar">
+      <element id="module-output" name="AP-CSP" />
+    </root>
+  </artifact>
+</component>

@@ -15,6 +15,10 @@ public class GuessingGUI {
     private JTextArea pastAttemptsTextArea;
     private JTextArea textCorrect;
     private JTextArea textWrongSpot;
+    private JTextArea rulesNumbersRangeFromTextArea;
+    private JTextArea past2;
+    private JButton restartButton;
+    public static int ab = 0;
 
     public GuessingGUI() {
         Guess.addActionListener(new ActionListener() {
@@ -27,6 +31,29 @@ public class GuessingGUI {
                 Guessing.userGuess();
                 guesses0TextArea.setText("Guesses: " + Guessing.guessAmount);
                 pastAttemptsTextArea.setText(String.valueOf(Guessing.pastGuesses));
+                past2.setText(String.valueOf(Guessing.pastGuessesTwo));
+                textCorrect.setText("Numbers Correct: " + Guessing.correctSpot);
+                textWrongSpot.setText("Numbers in Wrong Spot: " + Guessing.wrongSpot);
+            }
+        });
+        restartButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Guessing.guessAmount = 0;
+                Guessing.pastGuesses.clear();
+                Guessing.pastGuessesTwo.clear();
+                Guessing.computerNumbers.clear();
+                Guessing.userGuesses.clear();
+                past2.setText("");
+                pastAttemptsTextArea.setText("");
+                guesses0TextArea.setText("Guesses:  " + Guessing.guessAmount);
+                textCorrect.setText("Numbers Correct: 0");
+                textWrongSpot.setText("Numbers in Wrong Spot: 0");
+                Guessing.initialSet();
+                for (ab = 0; ab < 4; ab++) {
+                    Guessing.computerGen();
+                }
+
             }
         });
     }
@@ -36,15 +63,17 @@ public class GuessingGUI {
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().add(g.masterPanel);
-        frame.setSize(850, 450);
+        frame.setSize(850, 700);
         UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
         SwingUtilities.updateComponentTreeUI(frame);
         frame.pack();
         frame.setVisible(true);
-        for (int a = 0; a < 4; a++) {
+        Guessing.initialSet();
+        for (ab = 0; ab < 4; ab++) {
             Guessing.computerGen();
         }
-        Guessing.initialSet();
+
+
     }
 
 }
