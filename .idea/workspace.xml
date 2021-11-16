@@ -6,7 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84a2acbf-8e15-41af-83ae-ef54a2359ebd" name="Changes" comment="" />
+    <list default="true" id="84a2acbf-8e15-41af-83ae-ef54a2359ebd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GuessingGame_jar/GuessingGame.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GuessingGame_jar/GuessingGame.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AP-CSP/GuessingGame/Guessing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AP-CSP/GuessingGame/Guessing.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,38 +66,38 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.GuessingGUI">
-    <configuration name="E4_2B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProjectStem.Unit4.E4_2B" />
-      <module name="AP-CSP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ProjectStem.Unit4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="E4_6A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProjectStem.Unit4.E4_6A" />
-      <module name="AP-CSP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ProjectStem.Unit4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="E4_6B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProjectStem.Unit4.E4_6B" />
       <module name="AP-CSP" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ProjectStem.Unit4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunnyThing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunnyThing.FunnyThing" />
+      <module name="AP-CSP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FunnyThing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GradesGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GradeCalculator.GradesGUI" />
+      <module name="AP-CSP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GradeCalculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,10 +134,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.GuessingGUI" />
+        <item itemvalue="Application.GradesGUI" />
+        <item itemvalue="Application.FunnyThing" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.E4_6B" />
-        <item itemvalue="Application.E4_2B" />
-        <item itemvalue="Application.E4_6A" />
       </list>
     </recent_temporary>
   </component>
