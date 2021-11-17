@@ -53,7 +53,7 @@ public class E4_6A {
     }
     public static void eliminateFunction() {
         Collections.shuffle(nameArray);
-        while (b > 0) {
+        while (b > 1) {
             Random rand = new Random();
             int randomNumber = rand.nextInt(b);
             nameArray.remove(randomNumber);
