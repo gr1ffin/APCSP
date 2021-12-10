@@ -1,0 +1,15 @@
+C:\Users\agent\OneDrive\Documents\GitHub\AP-CSP\APCSP\bin\Debug\net6.0\APCSP.exe
+C:\Users\agent\OneDrive\Documents\GitHub\AP-CSP\APCSP\bin\Debug\net6.0\APCSP.deps.json
+C:\Users\agent\OneDrive\Documents\GitHub\AP-CSP\APCSP\bin\Debug\net6.0\APCSP.runtimeconfig.json
+C:\Users\agent\OneDrive\Documents\GitHub\AP-CSP\APCSP\bin\Debug\net6.0\APCSP.dll
+C:\Users\agent\OneDrive\Documents\GitHub\AP-CSP\APCSP\bin\Debug\net6.0\ref\APCSP.dll
+C:\Users\agent\OneDrive\Documents\GitHub\AP-CSP\APCSP\bin\Debug\net6.0\APCSP.pdb
+C:\Users\agent\OneDrive\Documents\GitHub\AP-CSP\APCSP\obj\Debug\net6.0\APCSP.csproj.AssemblyReference.cache
+C:\Users\agent\OneDrive\Documents\GitHub\AP-CSP\APCSP\obj\Debug\net6.0\APCSP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\agent\OneDrive\Documents\GitHub\AP-CSP\APCSP\obj\Debug\net6.0\APCSP.AssemblyInfoInputs.cache
+C:\Users\agent\OneDrive\Documents\GitHub\AP-CSP\APCSP\obj\Debug\net6.0\APCSP.AssemblyInfo.cs
+C:\Users\agent\OneDrive\Documents\GitHub\AP-CSP\APCSP\obj\Debug\net6.0\APCSP.csproj.CoreCompileInputs.cache
+C:\Users\agent\OneDrive\Documents\GitHub\AP-CSP\APCSP\obj\Debug\net6.0\APCSP.dll
+C:\Users\agent\OneDrive\Documents\GitHub\AP-CSP\APCSP\obj\Debug\net6.0\ref\APCSP.dll
+C:\Users\agent\OneDrive\Documents\GitHub\AP-CSP\APCSP\obj\Debug\net6.0\APCSP.pdb
+C:\Users\agent\OneDrive\Documents\GitHub\AP-CSP\APCSP\obj\Debug\net6.0\APCSP.genruntimeconfig.cache
