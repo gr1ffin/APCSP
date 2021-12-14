@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "70c79098-08e6-4ac3-b298-3d3a5639290f": {
+      "ProjectGuid": "70c79098-08e6-4ac3-b298-3d3a5639290f",
+      "DisplayName": "CounterApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

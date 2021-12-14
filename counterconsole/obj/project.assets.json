@@ -1,0 +1,521 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Core.Google.GData.Extensions/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Google.Gdata.Client.Core": "1.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Core.Google.GData.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Core.Google.GData.Extensions.dll": {}
+        }
+      },
+      "GData.Spreadsheets.Helpers/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.GData.Spreadsheets": "2.2.0"
+        },
+        "compile": {
+          "lib/net40/GData.Spreadsheets.dll": {}
+        },
+        "runtime": {
+          "lib/net40/GData.Spreadsheets.dll": {}
+        }
+      },
+      "Google.Apis/1.55.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.55.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {}
+        }
+      },
+      "Google.Apis.Auth/1.55.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.55.0",
+          "Google.Apis.Core": "1.55.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {}
+        }
+      },
+      "Google.Apis.Core/1.55.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {}
+        }
+      },
+      "Google.Apis.Discovery.v1/1.55.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.55.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Discovery.v1.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Discovery.v1.dll": {}
+        }
+      },
+      "Google.Apis.Sheets.v4/1.55.0.2371": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.55.0",
+          "Google.Apis.Auth": "1.55.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Sheets.v4.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Sheets.v4.dll": {}
+        }
+      },
+      "Google.GData.Client/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "4.0.5"
+        },
+        "compile": {
+          "lib/Google.GData.Client.dll": {}
+        },
+        "runtime": {
+          "lib/Google.GData.Client.dll": {}
+        }
+      },
+      "Google.Gdata.Client.Core/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Gdata.Client.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Gdata.Client.Core.dll": {}
+        }
+      },
+      "Google.GData.Extensions/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.GData.Client": "2.2.0",
+          "Newtonsoft.Json": "4.0.5"
+        },
+        "compile": {
+          "lib/Google.GData.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/Google.GData.Extensions.dll": {}
+        }
+      },
+      "Google.GData.Spreadsheets/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.GData.Client": "2.2.0",
+          "Google.GData.Extensions": "2.2.0",
+          "Newtonsoft.Json": "4.0.5"
+        },
+        "compile": {
+          "lib/Google.GData.Spreadsheets.dll": {}
+        },
+        "runtime": {
+          "lib/Google.GData.Spreadsheets.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Core.Google.GData.Extensions/1.0.2": {
+      "sha512": "R+D2s34TRKDICD1OPGexvoPXPX2KAGYDbk6PcMndiGWwlqEFwDQpZH16W5+Da72THWgbjo2mrvtkf2NZkWADbg==",
+      "type": "package",
+      "path": "core.google.gdata.extensions/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "core.google.gdata.extensions.1.0.2.nupkg.sha512",
+        "core.google.gdata.extensions.nuspec",
+        "lib/netstandard2.0/Core.Google.GData.Extensions.dll"
+      ]
+    },
+    "GData.Spreadsheets.Helpers/2.2.0": {
+      "sha512": "W60VWLkjGkwHR/Q8dZtbbZ2lEM+rqS2PnTKUXu0QLyaN363thPjbrgJ9CrGHOZ4I7L+N/E8w+XBXzufKx3BVwg==",
+      "type": "package",
+      "path": "gdata.spreadsheets.helpers/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gdata.spreadsheets.helpers.2.2.0.nupkg.sha512",
+        "gdata.spreadsheets.helpers.nuspec",
+        "lib/net40/GData.Spreadsheets.dll"
+      ]
+    },
+    "Google.Apis/1.55.0": {
+      "sha512": "siw3M6VOFbkrTlOTo7F89BrdDFQw/XVks8qo4xDMXwGpwKpCt0KWENYs7N2RWFznJghlrmPuZ6Sx13vvYqrynA==",
+      "type": "package",
+      "path": "google.apis/1.55.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.apis.1.55.0.nupkg.sha512",
+        "google.apis.nuspec",
+        "lib/net45/Google.Apis.PlatformServices.dll",
+        "lib/net45/Google.Apis.dll",
+        "lib/net45/Google.Apis.pdb",
+        "lib/net45/Google.Apis.xml",
+        "lib/netstandard1.3/Google.Apis.dll",
+        "lib/netstandard1.3/Google.Apis.pdb",
+        "lib/netstandard1.3/Google.Apis.xml",
+        "lib/netstandard2.0/Google.Apis.dll",
+        "lib/netstandard2.0/Google.Apis.pdb",
+        "lib/netstandard2.0/Google.Apis.xml"
+      ]
+    },
+    "Google.Apis.Auth/1.55.0": {
+      "sha512": "YPHAgzqsU3j/CiPjb2GSvZo2kHhVkFsdfrqA8X5CUWxlwfivcvSn3N5Hi995r4vpGRNmyXNiWZOXbFKps03bmg==",
+      "type": "package",
+      "path": "google.apis.auth/1.55.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.apis.auth.1.55.0.nupkg.sha512",
+        "google.apis.auth.nuspec",
+        "lib/net45/Google.Apis.Auth.PlatformServices.dll",
+        "lib/net45/Google.Apis.Auth.dll",
+        "lib/net45/Google.Apis.Auth.pdb",
+        "lib/net45/Google.Apis.Auth.xml",
+        "lib/net461/Google.Apis.Auth.PlatformServices.dll",
+        "lib/net461/Google.Apis.Auth.dll",
+        "lib/net461/Google.Apis.Auth.pdb",
+        "lib/net461/Google.Apis.Auth.xml",
+        "lib/netstandard1.3/Google.Apis.Auth.PlatformServices.dll",
+        "lib/netstandard1.3/Google.Apis.Auth.dll",
+        "lib/netstandard1.3/Google.Apis.Auth.pdb",
+        "lib/netstandard1.3/Google.Apis.Auth.xml",
+        "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll",
+        "lib/netstandard2.0/Google.Apis.Auth.dll",
+        "lib/netstandard2.0/Google.Apis.Auth.pdb",
+        "lib/netstandard2.0/Google.Apis.Auth.xml"
+      ]
+    },
+    "Google.Apis.Core/1.55.0": {
+      "sha512": "QX6pmjRxZYgyGFqsa7tyxdjoEb6ssJ9lv6ub8AxhPd/BCMEglmqzW4GpsuKQZaRg9Qq9gp9HRzjCiLZ3RgmNgw==",
+      "type": "package",
+      "path": "google.apis.core/1.55.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.apis.core.1.55.0.nupkg.sha512",
+        "google.apis.core.nuspec",
+        "lib/net45/Google.Apis.Core.dll",
+        "lib/net45/Google.Apis.Core.pdb",
+        "lib/net45/Google.Apis.Core.xml",
+        "lib/netstandard1.3/Google.Apis.Core.dll",
+        "lib/netstandard1.3/Google.Apis.Core.pdb",
+        "lib/netstandard1.3/Google.Apis.Core.xml",
+        "lib/netstandard2.0/Google.Apis.Core.dll",
+        "lib/netstandard2.0/Google.Apis.Core.pdb",
+        "lib/netstandard2.0/Google.Apis.Core.xml"
+      ]
+    },
+    "Google.Apis.Discovery.v1/1.55.0": {
+      "sha512": "Av+zSwVZW4xqvg2/daQQgDOzBw3CZr/AZuPzE89h19b/KLhXSwL+mN8IqVVKA5eJlHAxrDKp/pw4f1rjoqlgWw==",
+      "type": "package",
+      "path": "google.apis.discovery.v1/1.55.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.apis.discovery.v1.1.55.0.nupkg.sha512",
+        "google.apis.discovery.v1.nuspec",
+        "lib/net40/Google.Apis.Discovery.v1.dll",
+        "lib/net40/Google.Apis.Discovery.v1.pdb",
+        "lib/net40/Google.Apis.Discovery.v1.xml",
+        "lib/net45/Google.Apis.Discovery.v1.dll",
+        "lib/net45/Google.Apis.Discovery.v1.pdb",
+        "lib/net45/Google.Apis.Discovery.v1.xml",
+        "lib/netstandard1.0/Google.Apis.Discovery.v1.dll",
+        "lib/netstandard1.0/Google.Apis.Discovery.v1.pdb",
+        "lib/netstandard1.0/Google.Apis.Discovery.v1.xml",
+        "lib/netstandard1.3/Google.Apis.Discovery.v1.dll",
+        "lib/netstandard1.3/Google.Apis.Discovery.v1.pdb",
+        "lib/netstandard1.3/Google.Apis.Discovery.v1.xml",
+        "lib/netstandard2.0/Google.Apis.Discovery.v1.dll",
+        "lib/netstandard2.0/Google.Apis.Discovery.v1.pdb",
+        "lib/netstandard2.0/Google.Apis.Discovery.v1.xml"
+      ]
+    },
+    "Google.Apis.Sheets.v4/1.55.0.2371": {
+      "sha512": "2CCsbvYYbww7WyN8Bmh51srGGQz4vEzQXHU3BxauvfpXdoHz5V1IqDQ9SqfsECG/bPicfSKVw+FYY5bEb+quYg==",
+      "type": "package",
+      "path": "google.apis.sheets.v4/1.55.0.2371",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.apis.sheets.v4.1.55.0.2371.nupkg.sha512",
+        "google.apis.sheets.v4.nuspec",
+        "lib/net40/Google.Apis.Sheets.v4.dll",
+        "lib/net40/Google.Apis.Sheets.v4.pdb",
+        "lib/net40/Google.Apis.Sheets.v4.xml",
+        "lib/net45/Google.Apis.Sheets.v4.dll",
+        "lib/net45/Google.Apis.Sheets.v4.pdb",
+        "lib/net45/Google.Apis.Sheets.v4.xml",
+        "lib/netstandard1.0/Google.Apis.Sheets.v4.dll",
+        "lib/netstandard1.0/Google.Apis.Sheets.v4.pdb",
+        "lib/netstandard1.0/Google.Apis.Sheets.v4.xml",
+        "lib/netstandard1.3/Google.Apis.Sheets.v4.dll",
+        "lib/netstandard1.3/Google.Apis.Sheets.v4.pdb",
+        "lib/netstandard1.3/Google.Apis.Sheets.v4.xml",
+        "lib/netstandard2.0/Google.Apis.Sheets.v4.dll",
+        "lib/netstandard2.0/Google.Apis.Sheets.v4.pdb",
+        "lib/netstandard2.0/Google.Apis.Sheets.v4.xml"
+      ]
+    },
+    "Google.GData.Client/2.2.0": {
+      "sha512": "fEzWX+zWCJLj2pHcaY22hz4bbhCYzk01OodW2lqovh8jA2KsMaZ+SvZJqjl2sZo83us8DAFYlnopIR6qfkBbrQ==",
+      "type": "package",
+      "path": "google.gdata.client/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "google.gdata.client.2.2.0.nupkg.sha512",
+        "google.gdata.client.nuspec",
+        "lib/Google.GData.Client.dll"
+      ]
+    },
+    "Google.Gdata.Client.Core/1.0.2": {
+      "sha512": "buK4rcyqX+JnQwIrqX1XZ1jz30mnkeWUopIBUoNKuYt2TimzHbYj8itk2kdyR3xsXzlBjRFCpsfPLKeC0chxfg==",
+      "type": "package",
+      "path": "google.gdata.client.core/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "google.gdata.client.core.1.0.2.nupkg.sha512",
+        "google.gdata.client.core.nuspec",
+        "lib/netstandard2.0/Google.Gdata.Client.Core.dll"
+      ]
+    },
+    "Google.GData.Extensions/2.2.0": {
+      "sha512": "Pvei3H1fhthoPbgey6QXqlYD3BCYo+E2h/J1+1PVK1rKMQ/9Ifo3nx5KDT1luyu2H/ZGFxouDaxnqKq2u/J5Qg==",
+      "type": "package",
+      "path": "google.gdata.extensions/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "google.gdata.extensions.2.2.0.nupkg.sha512",
+        "google.gdata.extensions.nuspec",
+        "lib/Google.GData.Extensions.dll"
+      ]
+    },
+    "Google.GData.Spreadsheets/2.2.0": {
+      "sha512": "wikarrJ621aAibzMBa4wqe/20G1v+go+a+1V/99VzknKrJkN4zHog/ieBWHkZHujhgvq9fcupNZnuCJ5Q7iBJA==",
+      "type": "package",
+      "path": "google.gdata.spreadsheets/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "google.gdata.spreadsheets.2.2.0.nupkg.sha512",
+        "google.gdata.spreadsheets.nuspec",
+        "lib/Google.GData.Spreadsheets.dll"
+      ]
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Core.Google.GData.Extensions >= 1.0.2",
+      "GData.Spreadsheets.Helpers >= 2.2.0",
+      "Google.Apis >= 1.55.0",
+      "Google.Apis.Discovery.v1 >= 1.55.0",
+      "Google.Apis.Sheets.v4 >= 1.55.0.2371",
+      "Google.Gdata.Client.Core >= 1.0.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\agent\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\agent\\OneDrive\\Documents\\GitHub\\AP-CSP\\counterconsole\\APIConsoleTest.csproj",
+      "projectName": "APIConsoleTest",
+      "projectPath": "C:\\Users\\agent\\OneDrive\\Documents\\GitHub\\AP-CSP\\counterconsole\\APIConsoleTest.csproj",
+      "packagesPath": "C:\\Users\\agent\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\agent\\OneDrive\\Documents\\GitHub\\AP-CSP\\counterconsole\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\agent\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Core.Google.GData.Extensions": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
+          "GData.Spreadsheets.Helpers": {
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
+          "Google.Apis": {
+            "target": "Package",
+            "version": "[1.55.0, )"
+          },
+          "Google.Apis.Discovery.v1": {
+            "target": "Package",
+            "version": "[1.55.0, )"
+          },
+          "Google.Apis.Sheets.v4": {
+            "target": "Package",
+            "version": "[1.55.0.2371, )"
+          },
+          "Google.Gdata.Client.Core": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'GData.Spreadsheets.Helpers 2.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "GData.Spreadsheets.Helpers",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Google.GData.Client 2.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Google.GData.Client",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Google.GData.Extensions 2.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Google.GData.Extensions",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Google.GData.Spreadsheets 2.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Google.GData.Spreadsheets",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

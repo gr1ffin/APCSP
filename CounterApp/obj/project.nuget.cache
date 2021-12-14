@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xRO7LMq1CW4XjMR432g61mVjN4btSoOV+StKfLAKx9BXFNCK/jbDDqFN2Ow41gX3ScaykKJaGDEokn+DJUBlAA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\agent\\OneDrive\\Documents\\GitHub\\AP-CSP\\CounterApp\\CounterApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\agent\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\agent\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}
