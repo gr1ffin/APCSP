@@ -15,8 +15,8 @@ namespace GoogleSheetsAndCSharp
         static readonly string SpreadsheetID = "1zaVfRInZZnz0oml589kXT-j7OFI2LSn5iCq5A1VdKn4";
         static readonly string sheet = "Sheet1";
         static SheetsService service;
-        public static int ExistingData;
         public static int NewData;
+        public static int convertedRow;
 
         static void Main(string[] args)
         {
@@ -35,16 +35,17 @@ namespace GoogleSheetsAndCSharp
             });
 
             ReadEntries();
+            ButtonPress();
         }
 
         static void ReadEntries()
         {
-            var range = $"{sheet}!A1:F10";
+            var range = $"{sheet}!A1:B1";
             var request = service.Spreadsheets.Values.Get(SpreadsheetID, range);
 
             var response = request.Execute();
             var values = response.Values;
-            var convertedRow = 0;
+          
             if (values != null && values.Count > 0)
             {
                 foreach (var row in values)
@@ -52,14 +53,13 @@ namespace GoogleSheetsAndCSharp
                     Console.WriteLine("{0}", row[1]);
                     var test = row[1];
                     convertedRow = int.Parse(s: test.ToString());
-
-
                 }
             }
             else
             {
                 Console.WriteLine("No data found.");
             }
+            
         }
 
         static void CreateEntry()
@@ -77,7 +77,7 @@ namespace GoogleSheetsAndCSharp
 
         static void UpdateEntry(string updateText)
         {
-            var range = $"{sheet}!A2";
+            var range = $"{sheet}!B1";
             var valueRange = new ValueRange();
             var objectList = new List<object>() { updateText };
             valueRange.Values = new List<IList<object>> { objectList };
@@ -89,7 +89,7 @@ namespace GoogleSheetsAndCSharp
 
         static void ButtonPress()
         {
-            NewData = ExistingData + 1;
+            NewData = convertedRow + 1;
             UpdateEntry(Convert.ToString(NewData));
         }
 
